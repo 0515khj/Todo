@@ -1,0 +1,56 @@
+::placeholder {
+    color: #fff;
+    font-size: 18px;
+  }
+
+  .body{margin: 0;
+    overflow: hidden;
+    position: relative;
+  }
+img{width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.box{ position: absolute; top: 35%; left: 44%;}
+.todo{ width: 300px; height: 40px; color: #fff;
+    background: none; border: none;
+    border-bottom: 2px solid #fff ;
+    outline: none;
+}
+.list{ margin-top: 25px;}
+
+.list li{ 
+    list-style: none;
+    width: 300px;
+    line-height: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    overflow: hidden; 
+    background: #fff;
+    position: relative;
+    font-size: 15px;
+    }
+.list li::after{
+    content: '';
+    display: block;
+    width: 1px;
+    height: 50px;
+    background: skyblue;
+    position: absolute; top: 0px; left:40px;
+}
+
+
+.box ul li input{margin-right: 20px;}
+.box ul li button{ vertical-align: middle; float: right; height: 30px; width: 30px; 
+     border: 1px solid skyblue; cursor: pointer;
+    border-radius: 50%;}
+.box ul li.on{color: skyblue; text-decoration: line-through; font-style: italic; font-weight: 600;}
+
+
+#Clock {color: #F0C420;
+    font-size: 110px;
+font-weight: 900;}
+.Clock {width: 200px; height: 100px; text-align: center; background: none; padding-top: 10px;
+position: absolute; top: 10%; left:44% ; z-index: 1;}
