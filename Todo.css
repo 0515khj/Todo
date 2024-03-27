@@ -54,3 +54,13 @@ img{width: 100vw;
 font-weight: 900;}
 .Clock {width: 200px; height: 100px; text-align: center; background: none; padding-top: 10px;
 position: absolute; top: 10%; left:44% ; z-index: 1;}
+
+@media (max-width:1000px) {
+    #Clock{font-size: 70px;}
+    .Clock{position: absolute; left: 38%;}
+    .todo{ width: 250px; margin-left: -50px; font-size: 20px;}
+    .list li{width: 230px;height: 30px; margin-left: -50px;}
+    
+}
+
+
